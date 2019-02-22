@@ -1,0 +1,33 @@
+== Social App
+
+== How to build
+
+----
+mvn clean install
+----
+
+== How to run
+
+----
+mvn spring-boot:run
+----
+
+or
+
+----
+Run SocialAppApplication class
+----
+
+then
+
+Run rest methods like in the following file
+
+[NOTE]
+====
+The rest-calls.http is a human readable file, and can be run on intellij idea if wanted.
+====
+
+.rest-calls.http
+----
+include::rest-calls.http[]
+----

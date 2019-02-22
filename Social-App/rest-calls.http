@@ -1,0 +1,48 @@
+### Post 1
+
+POST http://localhost:8080/social-api/message
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName": "Alaz","content": "Hello! I'm Alaz"}
+
+### Post 2
+
+POST http://localhost:8080/social-api/message
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName": "Mustafa","content": "Hello! I'm Mustafa"}
+
+### Post 3
+
+POST http://localhost:8080/social-api/message
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName": "Bilgin","content": "Hello! I'm Bilgin"}
+
+### Wall for Alaz /message/{userName}
+
+GET http://localhost:8080/social-api/message/Alaz
+Accept: */*
+Cache-Control: no-cache
+
+### Alaz follows Mustafa /user/{userName}/{following}
+
+GET http://localhost:8080/social-api/user/Alaz/Mustafa
+Accept: */*
+Cache-Control: no-cache
+
+### Time line for Mustafa /timeline/{userName}
+
+GET http://localhost:8080/social-api/timeline/Mustafa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-19T092404.200.json
+
+###
