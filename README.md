@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 you have to download 
-npm install react-modal
+ 
+ *****npm install react-modal
 
 In the project directory, you can run:
 
